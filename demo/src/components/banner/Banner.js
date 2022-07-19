@@ -3,7 +3,7 @@ import useSWR from "swr";
 import { apikey, fetcher } from "../../Config";
 import { SwiperSlide, Swiper } from "swiper/react";
 import "swiper/scss";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 // import { useParams } from "react-router-dom";
 const Banner = () => {
   const { data } = useSWR(
